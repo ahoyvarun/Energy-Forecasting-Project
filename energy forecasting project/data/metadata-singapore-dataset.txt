@@ -1,0 +1,117 @@
+# Metadata for Voluntary Disclosed Building Energy Performance Data
+---
+Identifier: 'e3807d35-9373-4d74-b8ca-e5c70f397685'
+Name: 'building-energy-performance-data'
+Title: 'Voluntary Disclosed Building Energy Performance Data'
+Description:
+  - 'This dataset contains building energy performance data of all commercial buildings
+    in Singapore.'
+  - ''
+  - 'Data is collected through the Annual Mandatory Submission of Building Information
+    and Energy Consumption Data Legislation through BCA’s Building Energy Submission
+    System (BESS), mandated under Section 22FJ of the Building Control Act.'
+Topics:
+  - 'Infrastructure'
+Keywords:
+  - 'Energy'
+  - 'Property'
+  - 'energy performance data'
+  - 'green building'
+  - 'green mark'
+Publisher:
+  Name: 'Building and Construction Authority'
+  Admin 1:
+    Name: 'Choo See Loke'
+    Department: 'Green Building Policy Department'
+    Email: 'choo_see_loke@bca.gov.sg'
+  Admin 2:
+    Name: 'Felix Teo'
+    Department: 'Green Building Policy Department'
+    Email: 'felix_teo@bca.gov.sg'
+Sources:
+  - 'Building and Construction Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2018-01-01 to 2018-12-31'
+Last Updated: '2020-01-10T06:31:08.540748'
+Resources:
+  -
+    Identifier: '17c5cf53-9b5c-428b-a5b7-d88b8071d4af'
+    Title: 'Listing of Building Energy Performance Data for Commercial Buildings'
+    Url: 'https://storage.data.gov.sg/building-energy-performance-data/resources/listing-of-building-energy-performance-data-for-commercial-buildings-2020-01-10T06-30-14Z.csv'
+    Format: 'CSV'
+    Coverage: '2018-01-01 to 2018-12-31'
+    Last Updated: '2020-01-10T06:30:14.284136'
+    Schema:
+      -
+        Name: 'buildingname'
+        Title: 'Building Name'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'buildingaddress'
+        Title: 'Building Address'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'buildingtype'
+        Title: 'Building Type'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'Office Building, Hotel, Retail Building, Mixed Development'
+      -
+        Name: 'greenmarkstatus'
+        Title: 'Green Mark Status'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Yes – Green Mark building;'
+          - 'No – non-Green Mark building'
+      -
+        Name: 'greenmarkrating'
+        Title: 'Green Mark Rating'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'greenmarkyearaward'
+        Title: 'Green Mark Year of Award'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'buildingsize'
+        Title: 'Building Size'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'grossfloorarea'
+        Title: 'Gross Floor Area (m2)'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Large Size Commercial Buildings:'
+          - 'i) Office Building, Retail Building, and Mixed Development - GFA ≥ 15,000
+            m2'
+          - 'ii) Hotel - GFA ≥ 7,000 m2'
+          - ''
+          - 'Small Size Commercial Buildings::'
+          - 'i) Office Building, Retail Building, and Mixed Development - GFA < 15,000
+            m2'
+          - 'ii) Hotel - GFA < 7,000 m2'
+      -
+        Name: '2017energyuseintensity'
+        Title: '2017energyuseintensity'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: '2018energyusintensity'
+        Title: '2018energyusintensity'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'voluntarydisclosure'
+        Title: 'Voluntary Disclosure'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - 'Y = Yes'
+          - 'N = No'
